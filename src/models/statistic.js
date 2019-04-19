@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const Task = mongoose.model('Task',{
+const Statistic = mongoose.model('Statistic',{
     counter_id: {
         type: String,
         trim: true,
@@ -49,4 +49,4 @@ const Task = mongoose.model('Task',{
     },
 })
 
-module.exports = Task
+module.exports = Statistic
